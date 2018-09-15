@@ -93,5 +93,5 @@ if __name__ == '__main__':
                 break
 
             # Save json
-            # json.dump(data, f_save)
-            # f_save.write('\n')
+            json.dump(data, f_save)
+            f_save.write('\n')
